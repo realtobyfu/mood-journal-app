@@ -11,17 +11,15 @@
 		3E71D54A2C5B39C200E87897 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E71D5492C5B39C200E87897 /* ContentView.swift */; };
 		3E71D54C2C5B39C400E87897 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E71D54B2C5B39C400E87897 /* Assets.xcassets */; };
 		3E71D54F2C5B39C400E87897 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E71D54E2C5B39C400E87897 /* Preview Assets.xcassets */; };
-		3E71D5582C5BEBF200E87897 /* MoodSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E71D5572C5BEBF200E87897 /* MoodSelectionView.swift */; };
 		3E71D55A2C5BF47800E87897 /* AddNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E71D5592C5BF47800E87897 /* AddNoteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3E71D5442C5B39C200E87897 /* Journal-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Journal-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E71D5442C5B39C200E87897 /* Mood Journal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mood Journal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E71D5472C5B39C200E87897 /* templateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = templateApp.swift; sourceTree = "<group>"; };
 		3E71D5492C5B39C200E87897 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3E71D54B2C5B39C400E87897 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E71D54E2C5B39C400E87897 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3E71D5572C5BEBF200E87897 /* MoodSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodSelectionView.swift; sourceTree = "<group>"; };
 		3E71D5592C5BF47800E87897 /* AddNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -39,7 +37,7 @@
 		3E71D53B2C5B39C200E87897 = {
 			isa = PBXGroup;
 			children = (
-				3E71D5462C5B39C200E87897 /* Journal-App */,
+				3E71D5462C5B39C200E87897 /* Mood Journal */,
 				3E71D5452C5B39C200E87897 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,22 +45,21 @@
 		3E71D5452C5B39C200E87897 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3E71D5442C5B39C200E87897 /* Journal-App.app */,
+				3E71D5442C5B39C200E87897 /* Mood Journal.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3E71D5462C5B39C200E87897 /* Journal-App */ = {
+		3E71D5462C5B39C200E87897 /* Mood Journal */ = {
 			isa = PBXGroup;
 			children = (
 				3E71D5592C5BF47800E87897 /* AddNoteView.swift */,
-				3E71D5572C5BEBF200E87897 /* MoodSelectionView.swift */,
 				3E71D5472C5B39C200E87897 /* templateApp.swift */,
 				3E71D5492C5B39C200E87897 /* ContentView.swift */,
 				3E71D54B2C5B39C400E87897 /* Assets.xcassets */,
 				3E71D54D2C5B39C400E87897 /* Preview Content */,
 			);
-			path = "Journal-App";
+			path = "Mood Journal";
 			sourceTree = "<group>";
 		};
 		3E71D54D2C5B39C400E87897 /* Preview Content */ = {
@@ -76,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3E71D5432C5B39C200E87897 /* Journal-App */ = {
+		3E71D5432C5B39C200E87897 /* Mood Journal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3E71D5522C5B39C400E87897 /* Build configuration list for PBXNativeTarget "Journal-App" */;
+			buildConfigurationList = 3E71D5522C5B39C400E87897 /* Build configuration list for PBXNativeTarget "Mood Journal" */;
 			buildPhases = (
 				3E71D5402C5B39C200E87897 /* Sources */,
 				3E71D5412C5B39C200E87897 /* Frameworks */,
@@ -88,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = "Journal-App";
+			name = "Mood Journal";
 			productName = template;
-			productReference = 3E71D5442C5B39C200E87897 /* Journal-App.app */;
+			productReference = 3E71D5442C5B39C200E87897 /* Mood Journal.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3E71D53F2C5B39C200E87897 /* Build configuration list for PBXProject "Journal-App" */;
+			buildConfigurationList = 3E71D53F2C5B39C200E87897 /* Build configuration list for PBXProject "Mood Journal" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3E71D5432C5B39C200E87897 /* Journal-App */,
+				3E71D5432C5B39C200E87897 /* Mood Journal */,
 			);
 		};
 /* End PBXProject section */
@@ -144,7 +141,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E71D54A2C5B39C200E87897 /* ContentView.swift in Sources */,
-				3E71D5582C5BEBF200E87897 /* MoodSelectionView.swift in Sources */,
 				3E71D5482C5B39C200E87897 /* templateApp.swift in Sources */,
 				3E71D55A2C5BF47800E87897 /* AddNoteView.swift in Sources */,
 			);
@@ -333,7 +329,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3E71D53F2C5B39C200E87897 /* Build configuration list for PBXProject "Journal-App" */ = {
+		3E71D53F2C5B39C200E87897 /* Build configuration list for PBXProject "Mood Journal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3E71D5502C5B39C400E87897 /* Debug */,
@@ -342,7 +338,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3E71D5522C5B39C400E87897 /* Build configuration list for PBXNativeTarget "Journal-App" */ = {
+		3E71D5522C5B39C400E87897 /* Build configuration list for PBXNativeTarget "Mood Journal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3E71D5532C5B39C400E87897 /* Debug */,
