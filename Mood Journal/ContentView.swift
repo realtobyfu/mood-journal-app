@@ -36,17 +36,22 @@ struct ContentView: View {
                     .onDelete(perform: deleteNote)
                 }
                 .navigationTitle("Journal")
-                .toolbar {
-                    ToolbarItem(placement: .navigationBarTrailing) {
-                        Button(action: {
-                            showingAddNoteView = true
-                        }) {
-                            Image(systemName: "plus")
-                        }
+                HStack {
+                    Spacer()
+                    Button(action: {
+                        showingAddNoteView = true
+                    }) {
+                        Image(systemName: "plus.circle.fill")
+                            .font(.system(size: 52))
+                            .foregroundColor(.red)
                     }
+                    .frame(alignment: .center)
+                    Spacer()
                 }
+
             }
         }
+        
         .sheet(isPresented: $showingAddNoteView) {
             AddNoteView { newNote in
                 notes.append(newNote)
